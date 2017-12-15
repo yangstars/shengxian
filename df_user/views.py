@@ -10,8 +10,8 @@ sys.setdefaultencoding("utf-8")
 
 # Create your views here.
 
-def index(request):
-    return render(request,'df_user/index.html')
+# def index(request):
+#     return render(request, '../df_goods/index.html')
 
 #跳转注册页面
 def register(request):
